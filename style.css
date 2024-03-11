@@ -1,0 +1,165 @@
+
+
+
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    display: grid;
+    place-items: center;
+}
+
+/* borders */
+/* .contin,.gdsc-logo,.immerse,.text,.vectors,.cont1{
+  border: 2px solid black;
+} */
+
+.contin{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  height: 95vh;
+  width: 60vw;
+}
+
+.gdsc-logo{
+    width: 80%;
+    height: 220px;
+    background-image: url(images/GDSC-logo-m.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.immerse{
+    width: 80%;
+    height: 100px;
+    font-size: 3.5rem;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    font-weight: 500;
+    color: rgba(40, 39, 39, 0.916);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.text{
+    width: 80%;
+    height: 60px;
+    text-align: center;
+    font-family: poppins, sans-serif;
+}
+
+.vectors{
+    width: 80%;
+    height: 100px;
+    font-size: 2rem;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.cont1{
+    width: 80%;
+    height: 60px;
+    display: grid;
+    place-items: center;
+    /* height: 400px; */
+}
+
+#p3{
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+    width: 80%;
+    height: 80%;
+    background-color: rgb(88, 88, 196);
+    display: grid;
+    place-items: center;
+    /* border:2px solid black; */
+    border-radius: 5px;
+    margin-top: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* #pcd{
+    height: 0;
+    width: 0;
+    overflow: hidden;
+} */
+
+
+/* ...................Page 2.......................... */
+
+.contin2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  height: 40vh;
+  width: 60vw;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+span{
+    color: orange;
+}
+a{
+    width: 40px;
+    height: 30px;
+}
+
+#pcd1,#pcd2,#pcd3,#pcd4,#pcd5{
+    /* border: 2px solid black; */
+    width: 0;
+    height: 0;
+    overflow: hidden;
+}
+
+#p1,#p12,#p13,#p14,#p11{
+    color:white;
+    /* color: black; */
+    text-decoration: none;
+    text-align: center;
+}
+
+#p2{
+    color: white;
+    text-decoration: none;
+    width: 100px;
+    height: 30px;
+    background-color: rgb(88, 88, 196);
+    display: grid;
+    place-items: center;
+    /* border:2px solid black; */
+    border-radius: 5px;
+}
+
+
+
+#anu{
+    color: white;
+    text-decoration: none;
+    width: 100px;
+    height: 30px;
+    background-color: rgb(88, 88, 196);
+    display: grid;
+    place-items: center;
+    /* border:2px solid black; */
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+#scanner{
+    color: white;
+    text-decoration: none;
+    width: 100px;
+    height: 30px;
+    background-color: rgb(88, 88, 196);
+    display: grid;
+    place-items: center;
+    /* border:2px solid black; */
+    border-radius: 5px;
+    margin-top: 20px;
+}
