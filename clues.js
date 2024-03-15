@@ -1,6 +1,5 @@
 
 let qu1 = prompt("Enter answer here")
-
 if( qu1 == "Yellow"){
     let n1 = document.getElementById("ans1")
         n1.style.color = "green";
