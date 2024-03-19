@@ -8,7 +8,7 @@ if( qu1 == "Yellow"){
 
     let q3 = document.getElementById("pcd1");
     q3.style.width = "80%";
-    q3.style.height = "50px";
+    q3.style.height = "150px";
 
     setTimeout(() => {
         let m1 = document.getElementById("p1");
@@ -80,6 +80,10 @@ else{
         q1.textContent = "Wrong answer ";
         p1.style.width = "0px"     
 }
+
+
+
+
 
 
 
